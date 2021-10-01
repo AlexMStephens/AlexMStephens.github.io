@@ -36,7 +36,7 @@ body {
 
 /* Change navbar link colors on hover/mouse-over */
 .navbar a:hover {
-    background-color: #ddd; /*Grey background color */x
+    background-color: #ddd; /*Grey background color */
     color: black; /* black text */
 }
 
