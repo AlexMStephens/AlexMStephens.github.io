@@ -5,8 +5,8 @@ body {
 .header {
     padding: 80px;
     text-align: center;
-    background: pink;
-    color: black;
+    background: #202020;
+    color: #;
 }
 
 .header h1 {
@@ -16,7 +16,7 @@ body {
 /* Style the top navigation bar */
 .navbar {
     overflow: hidden; /* hide overflow */
-    background-color: #333; /* dark background color */
+    background-color: #333333; /* dark background color */
 }
 
 /* Style the navigation bar links.*/
@@ -41,7 +41,14 @@ body {
 }
 
 /* Ensure proper sizing. TODO: wtf this means */
-* {box-sizing: border-box}
+* {
+    box-sizing: border-box;
+    color: #DDDDDD;
+}
+
+html {
+    background-color: black;
+}
 
 /* Column container */
 .row {
@@ -54,14 +61,14 @@ body {
 /* Sidebar/left column */
 .side {
     flex: 30%;
-    background-color: #f1f1f1;
+    background-color: #383838;
     padding: 20px;
 }
 
 /* Main column */
 .main {
     flex: 70%;
-    background-color: white;
+    background-color: #181818;
     padding: 20px;
 }
 
@@ -83,5 +90,5 @@ body {
 .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: #282828;
 }
