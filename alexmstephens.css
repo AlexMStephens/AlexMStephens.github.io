@@ -5,7 +5,7 @@ body {
 .header {
     padding: 80px;
     text-align: center;
-    background: #202020;
+    background: #1E1E1E;
     color: #;
 }
 
@@ -16,7 +16,7 @@ body {
 /* Style the top navigation bar */
 .navbar {
     overflow: hidden; /* hide overflow */
-    background-color: #333333; /* dark background color */
+    background-color: #303030; /* dark background color */
 }
 
 /* Style the navigation bar links.*/
@@ -43,7 +43,7 @@ body {
 /* Ensure proper sizing. TODO: wtf this means */
 * {
     box-sizing: border-box;
-    color: #DDDDDD;
+    color: #D0D0D0;
 }
 
 html {
@@ -60,14 +60,14 @@ html {
 
 /* Sidebar/left column */
 .side {
-    flex: 30%;
-    background-color: #383838;
+    flex: 25%;
+    background-color: #353535;
     padding: 20px;
 }
 
 /* Main column */
 .main {
-    flex: 70%;
+    flex: 75%;
     background-color: #181818;
     padding: 20px;
 }
