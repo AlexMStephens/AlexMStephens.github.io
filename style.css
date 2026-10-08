@@ -1,0 +1,71 @@
+/* style.css */
+
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --link: #0055bb;
+  --border: #e0e0e0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --text: #e0e0e0;
+    --link: #66b2ff;
+    --border: #333333;
+  }
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  max-width: 650px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: var(--link);
+}
+
+main, section {
+    margin-bottom: 2rem;
+}
+
+header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+footer {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  opacity: 0.75;
+  font-size: 0.875rem;
+}
+
+figure {
+  margin: 0 auto 2rem auto;
+  padding: 0.5rem;
+  border: 1px solid var(--border);
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
