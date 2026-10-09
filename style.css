@@ -69,3 +69,10 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+.click-to-select {
+    user-select: all;
+    -webkit-user-select: all;
+    cursor: pointer;
+    text-align: center;
+}
